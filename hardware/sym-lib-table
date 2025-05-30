@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "slate-lib")(type "KiCad")(uri "${KIPRJMOD}/slate-lib.kicad_sym")(options "")(descr ""))
+  (lib (name "slate-lib")(type "KiCad")(uri "${KIPRJMOD}/slate-lib.pretty/slate-lib.kicad_sym")(options "")(descr ""))
 )
