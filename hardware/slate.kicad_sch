@@ -35,8 +35,8 @@
 		(uuid "60572165-d5c2-410f-b57a-fa23d72d1f0b")
 	)
 	(sheet
-		(at 93.98 137.414)
-		(size 35.052 28.702)
+		(at 121.158 85.852)
+		(size 29.972 29.972)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -51,7 +51,7 @@
 		)
 		(uuid "1164a079-1a3b-4be9-864c-e4cd3b379f16")
 		(property "Sheetname" "DDR3 RAM"
-			(at 93.98 136.7024 0)
+			(at 121.158 85.1404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60,7 +60,7 @@
 			)
 		)
 		(property "Sheetfile" "ddr3.kicad_sch"
-			(at 93.98 166.7006 0)
+			(at 121.158 116.4086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68,9 +68,29 @@
 				(justify left top)
 			)
 		)
-		(pin "Address" input
-			(at 93.98 144.78 180)
-			(uuid "e990b4f4-c0a2-4a9e-9e63-799a7e651bd0")
+		(pin "ADDRESS" input
+			(at 121.158 96.266 180)
+			(uuid "490793a4-3dfb-4d83-8a68-25279470865c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CONTROL" input
+			(at 121.158 100.076 180)
+			(uuid "0175b00e-45e2-4fe8-b775-0f625484b50c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DATA" input
+			(at 121.158 103.886 180)
+			(uuid "9253db37-06a3-48bd-a0f7-5ed11af9b36f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -87,8 +107,8 @@
 		)
 	)
 	(sheet
-		(at 73.914 82.55)
-		(size 42.418 30.48)
+		(at 74.93 85.852)
+		(size 40.386 29.972)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -103,7 +123,7 @@
 		)
 		(uuid "aa993629-1a5d-48b5-8b7f-b5a2941e5802")
 		(property "Sheetname" "A33"
-			(at 73.914 81.8384 0)
+			(at 74.93 85.1404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -112,7 +132,7 @@
 			)
 		)
 		(property "Sheetfile" "a33.kicad_sch"
-			(at 73.914 113.6146 0)
+			(at 74.93 116.4086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -129,8 +149,8 @@
 		)
 	)
 	(sheet
-		(at 142.494 81.788)
-		(size 55.118 36.576)
+		(at 7.874 80.772)
+		(size 44.196 28.448)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -145,7 +165,7 @@
 		)
 		(uuid "f95d2ce3-7cef-48d0-9b71-19f84de530b9")
 		(property "Sheetname" "Power"
-			(at 142.494 81.0764 0)
+			(at 7.874 80.0604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -154,7 +174,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 142.494 118.9486 0)
+			(at 7.874 109.8046 0)
 			(effects
 				(font
 					(size 1.27 1.27)

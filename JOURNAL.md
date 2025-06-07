@@ -30,7 +30,6 @@ Drew the symbol for my 4Gb RAM
 
 - 1.5h
 
-
 ------------
 
 Routed out the DRAM, but decided to change to 512M x 8 chips
@@ -39,3 +38,12 @@ Routed out the DRAM, but decided to change to 512M x 8 chips
 
 Also added a bunch of resources onto the schematic
 
+- 2h
+
+------------
+
+Okay I've made a basic DDR3 pinout
+
+![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/d8cfe600eee9b8fcc77698e568e3ea2d0cd7349c_image.png)
+
+- 2h

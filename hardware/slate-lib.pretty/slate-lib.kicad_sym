@@ -2599,7 +2599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4Gb DDR3 SDRAM"
+		(property "Description" "4Gb DDR3 SDRAM 256MiBx16"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4396,7 +4396,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 39.37 30.734 0)
+			(at 3.302 -29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4404,14 +4404,14 @@
 			)
 		)
 		(property "Value" "H5TQ4G83EFR"
-			(at 9.652 -38.1 0)
+			(at 9.144 -26.924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_BGA:FBGA-96_7.5x13mm_Layout9x16_P0.8mm"
+		(property "Footprint" "Package_BGA:FBGA-78_7.5x11mm_Layout2x3x13_P0.8mm"
 			(at -32.004 45.72 0)
 			(effects
 				(font
@@ -4429,7 +4429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4Gb DDR3 SDRAM"
+		(property "Description" "4Gb DDR3 SDRAM 512MiBx8"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4440,8 +4440,8 @@
 		)
 		(symbol "H5TQ4G83EFR_1_1"
 			(rectangle
-				(start -10.16 40.64)
-				(end 10.16 -36.83)
+				(start -11.43 40.64)
+				(end 10.16 -25.4)
 				(stroke
 					(width 0)
 					(type solid)
@@ -4451,79 +4451,7 @@
 				)
 			)
 			(pin input line
-				(at -34.29 -29.21 0)
-				(length 2.54)
-				(name "~{RESET}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "N2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -34.29 -49.53 0)
-				(length 2.54)
-				(name "BA0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "J2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -34.29 -52.07 0)
-				(length 2.54)
-				(name "BA1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "K8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -34.29 -54.61 0)
-				(length 2.54)
-				(name "BA2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "J3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -12.7 36.83 0)
+				(at -13.97 36.83 0)
 				(length 2.54)
 				(name "A0"
 					(effects
@@ -4541,7 +4469,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 34.29 0)
+				(at -13.97 34.29 0)
 				(length 2.54)
 				(name "A1"
 					(effects
@@ -4559,7 +4487,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 31.75 0)
+				(at -13.97 31.75 0)
 				(length 2.54)
 				(name "A2"
 					(effects
@@ -4577,7 +4505,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 29.21 0)
+				(at -13.97 29.21 0)
 				(length 2.54)
 				(name "A3"
 					(effects
@@ -4595,7 +4523,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 26.67 0)
+				(at -13.97 26.67 0)
 				(length 2.54)
 				(name "A4"
 					(effects
@@ -4613,7 +4541,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 24.13 0)
+				(at -13.97 24.13 0)
 				(length 2.54)
 				(name "A5"
 					(effects
@@ -4631,7 +4559,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 21.59 0)
+				(at -13.97 21.59 0)
 				(length 2.54)
 				(name "A6"
 					(effects
@@ -4649,7 +4577,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 19.05 0)
+				(at -13.97 19.05 0)
 				(length 2.54)
 				(name "A7"
 					(effects
@@ -4667,7 +4595,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 16.51 0)
+				(at -13.97 16.51 0)
 				(length 2.54)
 				(name "A8"
 					(effects
@@ -4685,7 +4613,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 13.97 0)
+				(at -13.97 13.97 0)
 				(length 2.54)
 				(name "A9"
 					(effects
@@ -4703,7 +4631,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 11.43 0)
+				(at -13.97 11.43 0)
 				(length 2.54)
 				(name "A10/AP"
 					(effects
@@ -4721,7 +4649,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 8.89 0)
+				(at -13.97 8.89 0)
 				(length 2.54)
 				(name "A11"
 					(effects
@@ -4739,7 +4667,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 6.35 0)
+				(at -13.97 6.35 0)
 				(length 2.54)
 				(name "A12/~{BC}"
 					(effects
@@ -4757,7 +4685,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 3.81 0)
+				(at -13.97 3.81 0)
 				(length 2.54)
 				(name "A13"
 					(effects
@@ -4775,7 +4703,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 1.27 0)
+				(at -13.97 1.27 0)
 				(length 2.54)
 				(name "A14"
 					(effects
@@ -4793,7 +4721,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -1.27 0)
+				(at -13.97 -1.27 0)
 				(length 2.54)
 				(name "A15"
 					(effects
@@ -4810,177 +4738,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -1.27 43.18 270)
-				(length 2.54)
-				(hide yes)
-				(name "VDDQ"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -1.27 43.18 270)
-				(length 2.54)
-				(name "VDDQ"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "C1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -1.27 43.18 270)
-				(length 2.54)
-				(hide yes)
-				(name "VDDQ"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "E2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -1.27 43.18 270)
-				(length 2.54)
-				(hide yes)
-				(name "VDDQ"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "E9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -1.27 -39.37 90)
-				(length 2.54)
-				(name "VSSQ"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -1.27 -39.37 90)
-				(length 2.54)
-				(hide yes)
-				(name "VSSQ"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -1.27 -39.37 90)
-				(length 2.54)
-				(hide yes)
-				(name "VSSQ"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "C9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -1.27 -39.37 90)
-				(length 2.54)
-				(hide yes)
-				(name "VSSQ"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "D1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -1.27 -39.37 90)
-				(length 2.54)
-				(hide yes)
-				(name "VSSQ"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "D9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin no_connect line
-				(at 0 62.23 270)
+				(at -13.97 -6.35 0)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -4999,7 +4758,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 62.23 270)
+				(at -13.97 -6.35 0)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -5018,7 +4777,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 62.23 270)
+				(at -13.97 -6.35 0)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -5037,7 +4796,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 62.23 270)
+				(at -13.97 -6.35 0)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -5056,7 +4815,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 62.23 270)
+				(at -13.97 -6.35 0)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -5074,8 +4833,191 @@
 					)
 				)
 			)
+			(pin input line
+				(at -13.97 -8.89 0)
+				(length 2.54)
+				(name "~{RESET}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "N2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -13.97 -11.43 0)
+				(length 2.54)
+				(name "~{CS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -13.97 -13.97 0)
+				(length 2.54)
+				(name "~{RAS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -13.97 -16.51 0)
+				(length 2.54)
+				(name "~{CAS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -13.97 -19.05 0)
+				(length 2.54)
+				(name "~{WE}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_in line
-				(at 1.27 43.18 270)
+				(at -13.97 -21.59 0)
+				(length 2.54)
+				(name "ODT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 43.18 270)
+				(length 2.54)
+				(hide yes)
+				(name "VDDQ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 43.18 270)
+				(length 2.54)
+				(name "VDDQ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 43.18 270)
+				(length 2.54)
+				(hide yes)
+				(name "VDDQ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 43.18 270)
+				(length 2.54)
+				(hide yes)
+				(name "VDDQ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -1.27 43.18 270)
 				(length 2.54)
 				(hide yes)
 				(name "VDD"
@@ -5094,7 +5036,7 @@
 				)
 			)
 			(pin power_in line
-				(at 1.27 43.18 270)
+				(at -1.27 43.18 270)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -5112,7 +5054,7 @@
 				)
 			)
 			(pin power_in line
-				(at 1.27 43.18 270)
+				(at -1.27 43.18 270)
 				(length 2.54)
 				(hide yes)
 				(name "VDD"
@@ -5131,7 +5073,7 @@
 				)
 			)
 			(pin power_in line
-				(at 1.27 43.18 270)
+				(at -1.27 43.18 270)
 				(length 2.54)
 				(hide yes)
 				(name "VDD"
@@ -5150,7 +5092,7 @@
 				)
 			)
 			(pin power_in line
-				(at 1.27 43.18 270)
+				(at -1.27 43.18 270)
 				(length 2.54)
 				(hide yes)
 				(name "VDD"
@@ -5169,7 +5111,7 @@
 				)
 			)
 			(pin power_in line
-				(at 1.27 43.18 270)
+				(at -1.27 43.18 270)
 				(length 2.54)
 				(hide yes)
 				(name "VDD"
@@ -5188,7 +5130,7 @@
 				)
 			)
 			(pin power_in line
-				(at 1.27 43.18 270)
+				(at -1.27 43.18 270)
 				(length 2.54)
 				(hide yes)
 				(name "VDD"
@@ -5207,7 +5149,7 @@
 				)
 			)
 			(pin power_in line
-				(at 1.27 43.18 270)
+				(at -1.27 43.18 270)
 				(length 2.54)
 				(hide yes)
 				(name "VDD"
@@ -5226,7 +5168,7 @@
 				)
 			)
 			(pin power_in line
-				(at 1.27 43.18 270)
+				(at -1.27 43.18 270)
 				(length 2.54)
 				(hide yes)
 				(name "VDD"
@@ -5245,7 +5187,119 @@
 				)
 			)
 			(pin power_in line
-				(at 1.27 -39.37 90)
+				(at -1.27 -27.94 90)
+				(length 2.54)
+				(name "VSSQ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -1.27 -27.94 90)
+				(length 2.54)
+				(hide yes)
+				(name "VSSQ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -1.27 -27.94 90)
+				(length 2.54)
+				(hide yes)
+				(name "VSSQ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -1.27 -27.94 90)
+				(length 2.54)
+				(hide yes)
+				(name "VSSQ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -1.27 -27.94 90)
+				(length 2.54)
+				(hide yes)
+				(name "VSSQ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 1.27 43.18 270)
+				(length 2.54)
+				(name "VREFCA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 1.27 -27.94 90)
 				(length 2.54)
 				(hide yes)
 				(name "VSS"
@@ -5264,7 +5318,7 @@
 				)
 			)
 			(pin power_in line
-				(at 1.27 -39.37 90)
+				(at 1.27 -27.94 90)
 				(length 2.54)
 				(hide yes)
 				(name "VSS"
@@ -5283,7 +5337,7 @@
 				)
 			)
 			(pin power_in line
-				(at 1.27 -39.37 90)
+				(at 1.27 -27.94 90)
 				(length 2.54)
 				(hide yes)
 				(name "VSS"
@@ -5302,7 +5356,7 @@
 				)
 			)
 			(pin power_in line
-				(at 1.27 -39.37 90)
+				(at 1.27 -27.94 90)
 				(length 2.54)
 				(hide yes)
 				(name "VSS"
@@ -5321,7 +5375,7 @@
 				)
 			)
 			(pin power_in line
-				(at 1.27 -39.37 90)
+				(at 1.27 -27.94 90)
 				(length 2.54)
 				(hide yes)
 				(name "VSS"
@@ -5340,7 +5394,7 @@
 				)
 			)
 			(pin power_in line
-				(at 1.27 -39.37 90)
+				(at 1.27 -27.94 90)
 				(length 2.54)
 				(hide yes)
 				(name "VSS"
@@ -5359,7 +5413,7 @@
 				)
 			)
 			(pin power_in line
-				(at 1.27 -39.37 90)
+				(at 1.27 -27.94 90)
 				(length 2.54)
 				(hide yes)
 				(name "VSS"
@@ -5378,7 +5432,7 @@
 				)
 			)
 			(pin power_in line
-				(at 1.27 -39.37 90)
+				(at 1.27 -27.94 90)
 				(length 2.54)
 				(hide yes)
 				(name "VSS"
@@ -5397,7 +5451,7 @@
 				)
 			)
 			(pin power_in line
-				(at 1.27 -39.37 90)
+				(at 1.27 -27.94 90)
 				(length 2.54)
 				(hide yes)
 				(name "VSS"
@@ -5416,7 +5470,7 @@
 				)
 			)
 			(pin power_in line
-				(at 1.27 -39.37 90)
+				(at 1.27 -27.94 90)
 				(length 2.54)
 				(hide yes)
 				(name "VSS"
@@ -5435,7 +5489,7 @@
 				)
 			)
 			(pin power_in line
-				(at 1.27 -39.37 90)
+				(at 1.27 -27.94 90)
 				(length 2.54)
 				(hide yes)
 				(name "VSS"
@@ -5454,7 +5508,7 @@
 				)
 			)
 			(pin power_in line
-				(at 1.27 -39.37 90)
+				(at 1.27 -27.94 90)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -5464,6 +5518,24 @@
 					)
 				)
 				(number "N9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 3.81 43.18 270)
+				(length 2.54)
+				(name "VREFDQ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5616,7 +5688,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 12.7 -8.89 180)
+				(at 12.7 13.97 180)
 				(length 2.54)
 				(name "DM/TDQS"
 					(effects
@@ -5634,7 +5706,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -11.43 180)
+				(at 12.7 11.43 180)
 				(length 2.54)
 				(name "NF/~{TDQS}"
 					(effects
@@ -5652,16 +5724,16 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -13.97 180)
+				(at 12.7 6.35 180)
 				(length 2.54)
-				(name "CKE"
+				(name "BA0"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "G9"
+				(number "J2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5670,16 +5742,16 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -16.51 180)
+				(at 12.7 3.81 180)
 				(length 2.54)
-				(name "CK"
+				(name "BA1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "F7"
+				(number "K8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5688,16 +5760,16 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -19.05 180)
+				(at 12.7 1.27 180)
 				(length 2.54)
-				(name "~{CK}"
+				(name "BA2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "G7"
+				(number "J3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5706,7 +5778,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 12.7 -21.59 180)
+				(at 12.7 -3.81 180)
 				(length 2.54)
 				(name "DQS"
 					(effects
@@ -5724,7 +5796,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 12.7 -24.13 180)
+				(at 12.7 -6.35 180)
 				(length 2.54)
 				(name "~{DQS}"
 					(effects
@@ -5742,16 +5814,16 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -26.67 180)
+				(at 12.7 -11.43 180)
 				(length 2.54)
-				(name "~{CS}"
+				(name "CK"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "H2"
+				(number "F7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5760,16 +5832,16 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -29.21 180)
+				(at 12.7 -13.97 180)
 				(length 2.54)
-				(name "~{RAS}"
+				(name "~{CK}"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "F3"
+				(number "G7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5778,34 +5850,16 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -31.75 180)
+				(at 12.7 -16.51 180)
 				(length 2.54)
-				(name "~{CAS}"
+				(name "CKE"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "G3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 12.7 -34.29 180)
-				(length 2.54)
-				(name "~{WE}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "H3"
+				(number "G9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5814,7 +5868,7 @@
 				)
 			)
 			(pin power_in line
-				(at 45.72 -50.8 180)
+				(at 12.7 -21.59 180)
 				(length 2.54)
 				(name "ZQ"
 					(effects
@@ -5824,60 +5878,6 @@
 					)
 				)
 				(number "H8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 59.69 20.32 180)
-				(length 2.54)
-				(name "ODT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "G1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 60.96 15.24 180)
-				(length 2.54)
-				(name "VREFCA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "J8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 60.96 12.7 180)
-				(length 2.54)
-				(name "VREFDQ"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "E1"
 					(effects
 						(font
 							(size 1.27 1.27)
