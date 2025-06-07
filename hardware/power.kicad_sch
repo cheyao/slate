@@ -1,0 +1,25 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f51547bd-32e6-4ad1-a482-177a3bb0d4e9")
+	(paper "A4")
+	(title_block
+		(title "Slate")
+		(date "2025-06-07")
+		(rev "v1.0")
+		(company "Chengyin Yao (Cyao)")
+		(comment 1 "https://github.com/cheyao/slate")
+	)
+	(lib_symbols)
+	(text "AXP223 PSU"
+		(exclude_from_sim no)
+		(at 135.89 14.986 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "09d51f65-45ef-4013-989e-5eaa12ac781c")
+	)
+)

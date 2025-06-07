@@ -29,3 +29,13 @@ Drew the symbol for my 4Gb RAM
 ![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/d5010d26e002011456041f3b9898d8e8d66e70e3_image.png)
 
 - 1.5h
+
+
+------------
+
+Routed out the DRAM, but decided to change to 512M x 8 chips
+
+![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/0988b1ee39745d19310fa1232d401592c1cc1963_image.png)
+
+Also added a bunch of resources onto the schematic
+
