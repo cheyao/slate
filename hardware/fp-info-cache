@@ -1,4 +1,4 @@
-25615881369080970
+25617630785832320
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -102640,6 +102640,13 @@ Varistor VF
 0
 2
 2
+slate-lib
+QFN-68-1EP_8x8mm_P0.4mm_EP5.49x5.49mm
+QFN, 68 Pin (https://cdn.microsemi.com/documents/1bf6886f-5919-4508-a50b-b1dbf3fdf0f4/download/#page=98), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+85
+69
 slate-lib
 TFBGA-282_14x14mm_Layout17x17_P0.8mm
 

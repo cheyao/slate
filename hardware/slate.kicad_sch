@@ -23,6 +23,17 @@
 		)
 		(uuid "4840d72c-dac5-4828-a9f3-74a013ce0a11")
 	)
+	(text "Project Volatile Schematic"
+		(exclude_from_sim no)
+		(at 26.162 19.304 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "https://www.eevblog.com/forum/projects/jlc2313-stackup-with-ddr3-fly-by/?action=dlattach;attach=990376")
+		)
+		(uuid "549e04b1-4c68-4d38-93af-0caaeb6cfee4")
+	)
 	(text "OSHWA A33 Computer"
 		(exclude_from_sim no)
 		(at 23.622 17.018 0)
@@ -34,9 +45,39 @@
 		)
 		(uuid "60572165-d5c2-410f-b57a-fa23d72d1f0b")
 	)
+	(bus
+		(pts
+			(xy 142.24 106.68) (xy 148.59 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "192ed9fa-b90e-4103-b5a1-2fed77bc9324")
+	)
+	(bus
+		(pts
+			(xy 142.24 102.87) (xy 148.59 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ba8259f-aeca-41bc-8554-3a924117a29a")
+	)
+	(bus
+		(pts
+			(xy 142.24 110.49) (xy 148.59 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a81108e1-192b-430c-b9cc-65159e896506")
+	)
 	(sheet
-		(at 121.158 85.852)
-		(size 29.972 29.972)
+		(at 148.59 93.218)
+		(size 29.718 28.194)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -51,7 +92,7 @@
 		)
 		(uuid "1164a079-1a3b-4be9-864c-e4cd3b379f16")
 		(property "Sheetname" "DDR3 RAM"
-			(at 121.158 85.1404 0)
+			(at 148.59 92.5064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60,7 +101,7 @@
 			)
 		)
 		(property "Sheetfile" "ddr3.kicad_sch"
-			(at 121.158 116.4086 0)
+			(at 148.59 121.9966 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68,8 +109,8 @@
 				(justify left top)
 			)
 		)
-		(pin "ADDRESS" input
-			(at 121.158 96.266 180)
+		(pin "A[0..15]" input
+			(at 148.59 102.87 180)
 			(uuid "490793a4-3dfb-4d83-8a68-25279470865c")
 			(effects
 				(font
@@ -78,9 +119,9 @@
 				(justify left)
 			)
 		)
-		(pin "CONTROL" input
-			(at 121.158 100.076 180)
-			(uuid "0175b00e-45e2-4fe8-b775-0f625484b50c")
+		(pin "D[0..15]" bidirectional
+			(at 148.59 106.68 180)
+			(uuid "5cd8890e-73ed-4795-b6b2-804d29f86663")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -88,9 +129,9 @@
 				(justify left)
 			)
 		)
-		(pin "DATA" input
-			(at 121.158 103.886 180)
-			(uuid "9253db37-06a3-48bd-a0f7-5ed11af9b36f")
+		(pin "{DDR_CONTROL}" bidirectional
+			(at 148.59 110.49 180)
+			(uuid "5694a815-55e2-4b8f-8fd7-0ae2c9b403af")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -107,8 +148,8 @@
 		)
 	)
 	(sheet
-		(at 74.93 85.852)
-		(size 40.386 29.972)
+		(at 106.68 93.218)
+		(size 35.56 28.194)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -123,7 +164,7 @@
 		)
 		(uuid "aa993629-1a5d-48b5-8b7f-b5a2941e5802")
 		(property "Sheetname" "A33"
-			(at 74.93 85.1404 0)
+			(at 106.68 92.5064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -132,12 +173,42 @@
 			)
 		)
 		(property "Sheetfile" "a33.kicad_sch"
-			(at 74.93 116.4086 0)
+			(at 106.68 121.9966 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "A[0..15]" output
+			(at 142.24 102.87 0)
+			(uuid "9d7d5b0d-f7c9-4cc8-9d97-bf1a390ce0eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "D[0..15]" bidirectional
+			(at 142.24 106.68 0)
+			(uuid "7f476773-9ed4-4654-982d-4b45960a990e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{DDR_CONTROL}" bidirectional
+			(at 142.24 110.49 0)
+			(uuid "7e4d8602-659e-44ed-a2c0-cd7ba3a3469a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -149,8 +220,8 @@
 		)
 	)
 	(sheet
-		(at 7.874 80.772)
-		(size 44.196 28.448)
+		(at 58.674 93.218)
+		(size 33.528 28.194)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -165,7 +236,7 @@
 		)
 		(uuid "f95d2ce3-7cef-48d0-9b71-19f84de530b9")
 		(property "Sheetname" "Power"
-			(at 7.874 80.0604 0)
+			(at 58.674 92.5064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -174,7 +245,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 7.874 109.8046 0)
+			(at 58.674 121.9966 0)
 			(effects
 				(font
 					(size 1.27 1.27)

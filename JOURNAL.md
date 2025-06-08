@@ -47,3 +47,12 @@ Okay I've made a basic DDR3 pinout
 ![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/d8cfe600eee9b8fcc77698e568e3ea2d0cd7349c_image.png)
 
 - 2h
+
+------------
+
+And improved the DDR3 schematic! Read the DDR specs and best practices, then started to join everything
+
+![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/598cfb174d6951e26859d8801beecae8bbb345f1_image.png)
+![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/eea80d9a8554f625565254c3be7f7b6c5ceb0776_image.png)
+
+- 2h
