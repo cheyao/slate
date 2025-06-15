@@ -507,18 +507,48 @@
         "wire_width": 6
       },
       {
-        "name": "DDR3",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "name": "DDRA",
+        "pcb_color": "rgb(0, 194, 0)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "DDRD",
+        "pcb_color": "rgb(0, 0, 194)",
         "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "GND",
+        "pcb_color": "rgb(132, 132, 132)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "POWER",
+        "pcb_color": "rgb(255, 0, 0)",
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
     "meta": {
       "version": 4
     },
-    "net_colors": null,
+    "net_colors": {
+      "+1V5": "rgb(132, 0, 0)",
+      "GND": "rgb(132, 132, 132)"
+    },
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "DDRA",
+        "pattern": "/A33/A*"
+      },
+      {
+        "netclass": "DDRD",
+        "pattern": "/A33/D*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {

@@ -56,3 +56,14 @@ And improved the DDR3 schematic! Read the DDR specs and best practices, then sta
 ![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/eea80d9a8554f625565254c3be7f7b6c5ceb0776_image.png)
 
 - 2h
+
+------------
+
+## 15/05/25
+
+Started to implement the power supply! This is hard as the chip doesn't have a good datasheet :skull:
+
+![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/17477ff80c3db1166d077b5cbb9ee429ffcca2da_image.png)
+
+- 4h
+
