@@ -59,11 +59,22 @@ And improved the DDR3 schematic! Read the DDR specs and best practices, then sta
 
 ------------
 
-## 15/05/25
+## 14-15/05/25
 
 Started to implement the power supply! This is hard as the chip doesn't have a good datasheet :skull:
 
 ![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/17477ff80c3db1166d077b5cbb9ee429ffcca2da_image.png)
 
 - 4h
+
+-------------
+
+## 15/05/25
+
+And continues to do this :D I think I'm 90% done with the PMU
+
+![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/412d0ffc51adfb269bb85310683ded3294fbbf3e_image.png)
+
+- 4h
+
 
